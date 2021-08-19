@@ -1,0 +1,29 @@
+.top-header {
+    background-color: #131c29;
+    text-transform: uppercase;
+}
+
+.main-nav-item {
+    text-transform: capitalize;
+}
+
+.sub-header {
+    text-transform: uppercase;
+}
+
+.button {
+    text-transform: uppercase;
+}
+
+.main-footer {
+    background-color: #131c29;
+    margin-top: 10px;
+}
+
+.main-footer .sub-header, .list-text, .date-div {
+    color: white;
+}
+
+.service-list, .opportunities-list, .news-list {
+    list-style-type: none;
+}
