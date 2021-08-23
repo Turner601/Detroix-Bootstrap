@@ -3,6 +3,57 @@
     text-transform: uppercase;
 }
 
+@media (min-width: 768px) and (max-width: 992px) {
+    .top-nav {
+        margin-right: -15px;
+    }
+    .main-nav {
+        margin-right: -80px;
+        margin-top: 12px;
+    }
+    .top-link {
+        display: inline-block;
+        margin-top: 8px;
+        margin-left: 2px;
+    }
+    .service-list-item {
+        margin-bottom: 7px;
+        font-size: 14px;
+    }
+    .opp-list-item h3 {
+        font-size: 16px;
+    }
+    .list-text {
+        font-size: 14px;
+    }
+    .news-list {
+        display: flex;
+        flex-direction: column;
+    }
+    .news-list-item {
+        margin-bottom: 15px;
+        display: flex;
+        flex-direction: row;
+    }
+    .news .news-content {
+        font-size: 14px;
+    }
+    .news h3 {
+        margin: -2px 0;
+        font-size: 16px;
+    }
+    .date-div {
+        padding: 10px;
+    }
+    .date {
+        font-size: 12px;
+        text-align: center;
+    }
+    .month {
+        font-size: 14px;
+    }
+}
+
 .main-nav-item {
     text-transform: capitalize;
 }
@@ -25,5 +76,43 @@
 }
 
 .service-list, .opportunities-list, .news-list {
+    padding: 0;
     list-style-type: none;
+}
+
+.div1 {
+    margin: 0 auto;
+    font-size: 18px;
+    background-color: #bd853b; width: 55px; height: 55px;
+}
+
+.div2 {
+    margin: 0 auto;
+    font-size: 18px;
+    background-color: #bb6242; width: 55px; height: 55px;
+}
+
+.div3 {
+    margin: 0 auto;
+    font-size: 18px;
+    background-color: #bd425e; width: 55px; height: 55px;
+}
+
+/* .news-list-item {
+    display: flex;
+} */
+
+.date, .month {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.colophon {
+    text-transform: uppercase;
+    background-color: #0b1016;
+}
+
+.colophon-text {
+    color: white;
 }
